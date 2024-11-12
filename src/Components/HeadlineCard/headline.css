@@ -1,0 +1,32 @@
+.headline {
+    color: #121843;
+}
+ 
+
+.num{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.highlight-red{
+    color:#FF5151;
+    font-size:16px;
+}
+
+.highlight-blue{
+    color: #3785F1;
+}
+
+.highlight-pink{
+    color:#EE61CF
+}
+
+@media (max-width: 1160px) {
+    .num{
+        font-size: 32px;
+    } 
+    .highlight-red{
+        font-size: 14px;
+    }
+  
+  }

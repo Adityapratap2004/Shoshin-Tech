@@ -1,0 +1,26 @@
+.graphCard-left h1{
+    font-size: 18px;
+    color: #121843;
+}
+
+.graphCard-left, .graphCard-right{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+
+.graphCard-left .strength{
+    color: #686868;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.percentage {
+    background-color: #FFEFE7;
+    color: #303030;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+

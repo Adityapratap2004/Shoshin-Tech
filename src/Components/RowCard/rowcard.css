@@ -1,0 +1,110 @@
+.rowcard{
+    border:1px solid #E0E0E0;
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+    padding-bottom: 30px;
+    
+}
+.rowcard-upper{
+    padding: 15px;  
+    
+}
+
+.rowcard-upper .heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowcard-upper .heading  select{
+    color: #303030;
+    border:1.5px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 3px 5px;
+    outline: none;
+    cursor: pointer;
+}
+.rowcard h1 {
+    font-size: 18px;
+    color: #121843;
+    font-weight: 500;   
+}
+
+.rowcard .row-container{
+    margin:10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* height: 200px; */
+    overflow-y: auto;
+    
+    
+}
+
+.rowcard .row-container > h2{
+    font-size: 12px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.rowcard .row-container::-webkit-scrollbar{
+    display: none;    
+}
+
+.rowcard .row-container{
+    scrollbar-width: none;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+
+}
+
+.rowcard .row h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+}
+
+.rowcard .row p{
+    font-size: 10px;
+    color: #686868;
+}
+
+.rowcard button {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rowcard .options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.rowcard .options img{
+    height:30px ;
+    
+}
+
+.rowcard .lower{
+    border:1px solid #E0E0E0;
+   text-align: center;
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.rowcard .lower{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 450;
+    color:#FF5151;
+    cursor: pointer;
+}

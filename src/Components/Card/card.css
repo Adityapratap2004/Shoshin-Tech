@@ -1,0 +1,34 @@
+.card{
+    display: flex;
+    border-radius:10px ;
+    gap:16px;
+    justify-content: space-between;
+}
+
+.card-padding{
+    padding: 15px;
+}
+
+.card-row{
+    flex-direction: row;
+}
+.card-column{
+    flex-direction: column;
+}
+
+.card-red{
+    background-color: #FFEFE7;
+}
+.card-blue{
+    background-color: #E8F0FB;
+}
+.card-pink{
+    background-color: #FDEBF9;
+}
+.card-grey{
+    background-color: #FAFAFA;
+}
+
+.card-border{
+    border:1px solid #E0E0E0
+}

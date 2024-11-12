@@ -1,0 +1,21 @@
+.applayout{
+    display: flex;
+}
+
+.side-bar{
+    max-width:242px;
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.outlet{
+    flex-grow: 1;
+    padding: 20px 30px 0px 30px;
+}
+
+@media (max-width: 1200px) {
+    .side-bar{
+        width: fit-content;
+    }
+}
